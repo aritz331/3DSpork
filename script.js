@@ -1,4 +1,4 @@
-const subtitle = document.getElementsByClassName("card-subtitle")[0];
+const  subtitle = document.getElementsByClassName("card-subtitle")[0];
 
 const createWord = (text, index) => {
   const word = document.createElement("span");
@@ -16,5 +16,4 @@ const addWord = (text, index) => subtitle.appendChild(createWord(text, index));
 
 const createSubtitle = text => text.split("  ").map(addWord);
 
-createSubtitle("Download  the  spork  3D  model  <a href='Sporknife.zip' style='text-decoration: none;' download>here</a>.");
-createSubtitle("The  idea  of  the  spork  knife  3D  model  was  originated  from  a  writing  test.");
+createSubtitle("Download  the  spork  3D  model  <a href='Sporknife.zip' style='text-decoration: none;' download>here</a>.  The  idea  of  the  spork  3D  model  was  originated  from  a  writing  test.");
