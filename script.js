@@ -16,4 +16,4 @@ const addWord = (text, index) => subtitle.appendChild(createWord(text, index));
 
 const createSubtitle = text => text.split("  ").map(addWord);
 
-createSubtitle("Download  the  spork  3D  model  <a href='/3DSpork/model' style='text-decoration: none;'>here</a>.");
+createSubtitle("Download  the  spork  3D  model  <a href='/3DSpork/model' style='text-decoration: none;' download>here</a>.");
